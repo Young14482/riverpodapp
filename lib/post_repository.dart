@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:mockapp/http_util.dart';
-import 'package:mockapp/post_page_list_vm.dart';
+import 'package:mockapp/post_list_page_vm.dart';
 import 'package:mockapp/post_page_vm.dart';
 
 class PostRepository {

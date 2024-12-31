@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mockapp/post_page_list_vm.dart';
+import 'package:mockapp/post_list_page_vm.dart';
 
 class PostListBody extends ConsumerWidget {
   @override
