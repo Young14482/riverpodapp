@@ -11,7 +11,7 @@ class PostListBody extends ConsumerWidget {
       return Center(child: CircularProgressIndicator());
     } else {
       return ListView.builder(
-        itemCount: 4,
+        itemCount: models.length,
         itemBuilder: (context, index) {
           return ListTile(
             leading: Text("${models[index].id}"),

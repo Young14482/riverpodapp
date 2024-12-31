@@ -33,6 +33,9 @@ class PostListPageVM extends Notifier<List<Post2>?> {
   }
 
   Future<void> deleteById(int id) async {
+    // 1. 통신 코드
+
+    // 2. 상태 변경
     List<Post2> posts = state!;
     state = posts.where((p) => p.id != id).toList();
   }
